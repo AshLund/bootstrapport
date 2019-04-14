@@ -1,0 +1,258 @@
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 350px;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    left: 140px;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+hr {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: insert;
+    border-width: 1px;
+    color: #dddddd;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 15px;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #777777;
+    text-align: center;
+    padding: 14px 14px;
+    font-family: 'Georgia', Times, Times, serif;
+}
+
+li:hover {
+    color: white;
+    background-color: #4aaaa5;
+    cursor: arrow;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+p {
+   color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.me {
+    background-color: white;
+    width: 910px;
+    margin: 0 auto 0 auto;
+    margin-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 100%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    line-height:50px;
+    bottom: 0;
+    border-top: 10px solid #4aaaa5;
+}
+
+footer p {
+    display: inline-block;
+    vertical-align: bottom;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=button]:hover {
+    color: #4aaaa5;
+    background-color: white;
+    cursor: arrow;
+}
+
+.container {
+    position: relative;
+}
+
+.bottom, .top-left, .top-right, .middle-left, .middle-right {
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 300px;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 980px) {
+    .me {
+        float: left;
+        left: 20px;
+        width:600px;
+        padding-top:3%;
+        padding-bottom:1%;
+        font-size:16px;
+        position:relative;
+        margin: 0 auto 0 auto;
+        margin-top: 15px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    h1 {
+        position: left;
+        left: 20px;
+    }
+
+    body {
+        overflow-y: scroll;
+      }
+      
+}
+
+
+@media only screen and (max-width: 768px) {  
+    .me {
+        left: 10px;
+        width:600px;
+        padding-top:3%;
+        padding-bottom:1%;
+        font-size:16px;
+        position:relative;
+        margin: 0 auto 0 auto;
+        margin-top: 15px;
+        padding-right: 25px;
+        padding-left: 25px;}
+
+    h1 {
+        position: left;
+        left: 20px;
+    }
+
+    ul {
+        right: 20px;
+    }
+
+    body {
+        overflow-y: scroll;
+      }
+      
+}
+
+@media only screen and (max-width: 640px) {  
+    .me {
+        float:left;
+        left: 20px;
+        width:525px;
+        padding-top:3%;
+        padding-bottom:1%;
+        font-size:16px;
+        position:relative;
+        margin: 0 auto 0 auto;
+        margin-top: 15px;
+        padding-right: 25px;
+        padding-left: 25px;}
+    header {
+        position: static;
+    }
+    img {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        left: 0;
+    }
+
+    ul {
+        background-color: white;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    body {
+        overflow-y: scroll;
+      }     
+      
+}
+
+
+
